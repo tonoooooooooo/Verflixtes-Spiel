@@ -10,17 +10,25 @@ public class Spieler
     // Instanzvariablen - ersetzen Sie das folgende Beispiel mit Ihren Variablen
     private String name;
 
-    public Spieler(String neuerName)
+   
+    /**
+     * Erstellt einen neuen Spieler.
+     */public Spieler(String neuerName)
     {
         name=neuerName;
     }
 
-    public void setName (String nameAendern)
+    
+    /**
+     * Aendert den Namen des Spielers.
+     */public void setName (String nameAendern)
     {
         name=nameAendern;
     }
 
-    public String getName()
+    /**
+     * Spuckt den Namen des Spielers aus.
+     */public String getName()
     {
         return name;
     }
