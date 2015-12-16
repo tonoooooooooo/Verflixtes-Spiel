@@ -107,7 +107,7 @@ public class GUI extends JFrame implements ActionListener{
             summe = summe + zahl;
             if (zahl==7)
             {
-                textfeld.append("Oh nein, Ihr Wurf ist eine verflixte 7" + ". Sie haben verloren!");
+                textfeld.append("Oh nein, Ihr Wurf ist eine verflixte 7" + ". Ihre Endsumme lautet " + summe - 7 + "!");
                 newLine();
                 break;
             }
